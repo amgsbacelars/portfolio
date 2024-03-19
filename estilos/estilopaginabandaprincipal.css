@@ -1,0 +1,263 @@
+* {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "BubblegumSans-Regular", sans-serif;
+}
+
+body {
+  border: 1px solid #272727;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #272727 ;
+    padding: 15px;
+}
+  
+#mercha {
+  text-transform: uppercase;
+}
+
+.navbar a {
+    float:left;
+    color: bisque;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;   
+    border: none;
+    outline: none;
+    color: bisque;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    text-decoration: underline;
+  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  max-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #272727;
+  font-size: 14px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: bisque;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div.minha-galeria, div.minha-galeria2, div.minha-galeria3  {
+    margin: 5px;
+    border: 3px solid black;
+    display: inline-block;
+    width: 25%;
+}
+
+div.minha-galeria img, div.minha-galeria2 img, div.minha-galeria3 img {
+    width: 100%;
+    height: auto;
+}
+
+div.minha-galeria:hover, div.minha-galeria2:hover, div.minha-galeria3:hover {
+    border: 3px solid greenyellow;
+}
+
+div.desc {
+    padding: 10px;
+}
+
+div.article p, div.article h2{
+  color: #272727;
+}
+
+div.form1 {
+  color:#272727;
+}
+
+.news {
+  display: inline-block;
+  max-width: 90%;
+}
+
+#imgpaul {
+  display: inline-block;
+  width: 75px;
+  height: auto;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #272727;
+}
+
+.redesociais{
+  text-align:center;
+}
+  
+.fa-brands {
+    font-size:30px;
+    color:bisque;
+    padding:0 10px;
+}
+
+.fab {
+  font-size:30px;
+  color:bisque;
+  padding:0 10px;
+}
+
+.fas{
+  color: bisque;
+  padding:0 10px;
+}
+
+
+.contactos-texto {
+  color: bisque;
+}
+
+#tit3 {
+  text-decoration: none;
+  color: bisque;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#headercontactos {
+  color: bisque;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+#criador {
+  padding: 10px;
+  color:bisque;
+}
+
+#botaosearch {
+  float: right;
+}
+
+#criador {
+  font-size: 10px;
+}
+
+.article {
+  background-color: bisque;
+  border: 1px solid #272727;
+  padding: 0px 0px 15px 0px;
+}
+
+section {
+  margin: 2% 0%;
+}
+
+@font-face { 
+  font-family: BubblegumSans-Regular; src: url(./BubblegumSans-Regular.ttf);
+}
+
+@media (max-width: 600px) {
+.navbar {
+  font-size: 10px;
+}
+  .dropdown .dropbtn {
+    font-size: 10px;   
+    border: none;
+    outline: none;
+    color: bisque;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    max-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #272727;
+    font-size: 10px;
+  }
+
+  .gal1 {
+    width: 100%;
+    height: auto;
+    font-size: 5px;
+  }
+  .gal2{
+    width: 100%;
+    height: auto;
+    font-size: 5px;
+  }
+  .gal3 {
+    width: 100%;
+    height: auto;
+    font-size: 5px;
+  }
+
+  header {
+    font-size: 10px;
+  }
+
+  .imglogo {
+    width: 25%;
+  }
+
+  #headercontactos, #criador {
+    font-size: 5px;
+  }
+
+  .fa-brands {
+    font-size:10px;
+    color:bisque;
+    padding:0 10px;
+}
+
+.fab {
+  font-size:10px;
+  color:bisque;
+  padding:0 10px;
+}
+
+.fas{
+  color: bisque;
+  padding:0 10px;
+}
+
+.article, .form1{
+  font-size: 10px;
+}
+}
